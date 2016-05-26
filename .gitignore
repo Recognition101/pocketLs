@@ -1,0 +1,8 @@
+node_modules
+conf.json
+
+.DS_Store
+*.swp
+*.swo
+.zedstate
+tags

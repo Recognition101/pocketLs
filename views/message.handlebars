@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>Pocket Ls</title>
+</head>
+<body>
+    <h1 class="{{#error}}error-title{{/error}}">
+        {{#error}}Uh oh!{{/error}}
+        {{^error}}Pocket Ls Setup{{/error}}
+    </h1>
+    
+    <p>
+    {{message}}
+    </p>
+
+    {{#error}}
+    <p>
+    Try again from <a href="/">the start</a>.
+    </p>
+    {{/error}}
+</body>
+</html>
