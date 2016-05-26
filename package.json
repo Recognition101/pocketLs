@@ -1,0 +1,27 @@
+{
+  "name": "pocketLs",
+  "description": "A utility that prints the URLs of every item in your Pocket account",
+  "version": "1.0.0",
+  "homepage": "https://github.com/recognition101/pocketLs",
+  "keywords": [
+    "pocket",
+    "script",
+    "shell"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/recognition101/pocketLs"
+  },
+  "author": {
+    "name": "Recognition101",
+    "email": "darklightmw@gmail.com"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "commander": "^2.9.0",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "request": "^2.65.0"
+  },
+  "scripts": {}
+}

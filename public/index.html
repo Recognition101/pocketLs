@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>Pocket Ls</title>
+</head>
+<body>
+    <h1>Pocket Ls Setup</h1>
+
+    <p>
+    To set up pocket ls, please create an app
+    <a href="https://getpocket.com/developer/apps/new">here</a>. Once you
+    do that, you'll be given a <b>consumer key</b>. Put that in the box
+    below and hit "Authenticate". Pocket will ask for authentication, and if
+    all goes well it will be configured so you can use the CLI utility.
+    </p>
+
+    <form action="/config" method="POST">
+        Consumer Key: <input type="text" name="consumerKey" />
+        <input type="submit" value="Authenticate" />
+    </form>
+
+</body>
+</html>

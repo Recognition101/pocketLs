@@ -1,0 +1,19 @@
+body {
+    font-family: -apple-system, "HelveticaNeue-Light", "Helvetica Neue Light",
+                 "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
+                 sans-serif; 
+    font-weight: 300;
+
+    max-width: 400px;
+    line-height: 1.5em;
+    margin: auto auto;
+}
+
+h1 {
+    font-weight: 100;
+    color: #A0A0A0;
+}
+
+.error-title {
+   color: #D00000; 
+}
